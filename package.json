@@ -1,0 +1,46 @@
+{
+  "name": "lsbot",
+  "version": "1.0.0",
+  "description": "Bot de whatsapp simples",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+"scripts": {
+  "start": "node index.js"
+},
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "awesome-phonenumber": "^6.1.0",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "human-readable": "^0.2.1",
+    "jimp": "^0.16.13",
+    "jsdom": "^22.1.0",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.43",
+    "node-webpmux": "^3.1.9",
+    "performance-now": "^2.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "yargs": "^17.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReikoOFC/lsbot.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "nabuto",
+    "ls",
+    "whatsapp",
+    "bot"
+  ],
+  "author": "Luan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReikoOFC/lsbot/issues"
+  },
+  "homepage": "https://github.com/ReikoOFC/lsbot#readme"
+}
