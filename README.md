@@ -5,4 +5,4 @@
 
 ### Comandos para a Instalação para termux:
 
-- pkg update -y && pkg upgrade -y pkg install nodejs-lts -y && pkg install git -y && git clone https://github.com/ReikoOFC/lsbot && cd lsbot && sh start.sh
+- pkg update -y && pkg upgrade -y && pkg install nodejs-lts -y && pkg install git -y && git clone https://github.com/ReikoOFC/lsbot && cd lsbot && sh start.sh
