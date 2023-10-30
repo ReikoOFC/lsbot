@@ -12,13 +12,13 @@ echo -e "
 ▐█▌▐▌▐█▄▪▐█  ██▄▪▐█▐█▌.▐▌ ▐█▌·
 .▀▀▀  ▀▀▀▀   ·▀▀▀▀  ▀█▄▀▪ ▀▀▀ 
 "
-echo -e "\n\n\n"
+echo "\n\n\n"
 # Opção para voltar
-echo -e "\033[34m[ 1 ] QR CODE\033[0m"
-echo -e "\033[34m[ 2 ] CODIGO NÚMERO\033[0m"
-echo -e "\033[34m[ 3 ] APAGAR PASTA DE SESSÃO\033[0m"
-read -p "Escolha uma opção: " opcao
-echo -e "\n\n\n"
+echo "\033[34m 1 - QR CODE\033[0m"
+echo "\033[34m 2 - CODIGO NÚMERO\033[0m"
+echo "\033[34m 3 - APAGAR PASTA DE SESSÃO\033[0m"
+read "Escolha uma opção: " opcao
+echo "\n\n\n"
 
 if [ "$opcao" == "1" ]; then
     node index.js
